@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MigratingfromXmltoCompose</string>
+    <string name="description">¿Ya migraste a Jetpack Compose 🏃🏾‍♂️? ¿Te parece difícil 🥴? En este meetup Erix Mendoza y Esteban Higuita nos mostrarán estrategias de migración para que tu proyecto pueda adoptar esta tecnología de forma práctica 😱. No te lo pierdas 😉.</string>
+    <string name="title">Android Medellin </string>
 </resources>
