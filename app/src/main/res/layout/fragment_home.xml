@@ -41,28 +41,40 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="@string/nx_series" />
+                android:text="@string/nx_series"
+                android:fontFamily="@font/nunito_extra_bold"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="@string/pantera" />
+                android:text="@string/pantera"
+                android:fontFamily="@font/nunito_bold"
+                android:textSize="16sp"
+                android:textColor="#757575" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="@string/phantom" />
+                android:text="@string/phantom"
+                android:fontFamily="@font/nunito_bold"
+                android:textSize="16sp"
+                android:textColor="#757575" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="@string/black" />
+                android:text="@string/black"
+                android:fontFamily="@font/nunito_bold"
+                android:textSize="16sp"
+                android:textColor="#757575" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.AppCompatImageView
@@ -160,7 +172,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:text="Lorem Ipsum" />
+                        android:text="Lorem Ipsum"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/nunito_semi_bold"/>
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
                 <androidx.appcompat.widget.LinearLayoutCompat
@@ -177,7 +191,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:text="Lorem Ipsum" />
+                        android:text="Lorem Ipsum"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/nunito_semi_bold"/>
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
                 <androidx.appcompat.widget.LinearLayoutCompat
@@ -194,7 +210,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:text="Lorem Ipsum" />
+                        android:text="Lorem Ipsum"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/nunito_semi_bold" />
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
                 <androidx.appcompat.widget.LinearLayoutCompat
@@ -211,7 +229,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:text="Lorem Ipsum" />
+                        android:text="Lorem Ipsum"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/nunito_semi_bold" />
                 </androidx.appcompat.widget.LinearLayoutCompat>
             </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -221,13 +241,15 @@
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_marginBottom="-40dp"
-            android:backgroundTint="@color/cardview_dark_background"
             app:cardCornerRadius="20dp"
+            app:cardElevation="100dp"
             app:layout_constraintBottom_toBottomOf="parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:paddingBottom="10dp">
 
                 <TextView
                     android:id="@+id/textView3"
@@ -235,16 +257,21 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="34dp"
                     android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nunito_extra_bold"
+                    android:textSize="14sp"
                     android:text="USD $633"
+                    android:textColor="@color/black"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    style=""
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:text="@string/usd_1_299"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textSize="14sp"
+                    android:textColor="#8B8A8B"
                     app:layout_constraintStart_toEndOf="@+id/textView3"
                     app:layout_constraintTop_toTopOf="@+id/textView3" />
 
@@ -252,6 +279,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="or as low as $89/mo."
+                    android:fontFamily="@font/nunito_bold"
+                    android:textSize="11sp"
+                    android:textColor="#8B8A8B"
                     app:layout_constraintStart_toStartOf="@+id/textView3"
                     app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -261,6 +291,7 @@
                     android:layout_marginTop="14dp"
                     android:layout_marginEnd="20dp"
                     app:cardCornerRadius="14dp"
+                    app:cardBackgroundColor="#1D1C1D"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
@@ -269,7 +300,10 @@
                         android:layout_height="wrap_content"
                         android:paddingHorizontal="20dp"
                         android:paddingVertical="14dp"
-                        android:text="SHOP NOW" />
+                        android:text="SHOP NOW"
+                        android:fontFamily="@font/nunito_bold"
+                        android:textSize="17sp"
+                        android:textColor="@color/white"/>
                 </androidx.cardview.widget.CardView>
 
 
