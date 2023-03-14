@@ -35,16 +35,26 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/recycler_view">
-
-            <TextView
+ k
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center_horizontal"
-                android:text="@string/nx_series"
-                android:fontFamily="@font/nunito_extra_bold"
-                android:textSize="16sp"
-                android:textColor="@color/black"/>
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extra_bold"
+                    android:gravity="center_horizontal"
+                    android:text="@string/nx_series"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="4dp"
+                    android:background="#FE8400"/>
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
