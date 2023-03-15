@@ -8,4 +8,6 @@
     <string name="black">Black</string>
     <string name="usd_1_299"><strike>USD $1,299</strike></string>
     <string name="_4k_drone">4K DRONE</string>
+    <string name="description_item">With GPS, WiFi, FPV and Optical \n Flow Stability</string>
+    <string name="pantera_4k">PANTERA 4K</string>
 </resources>
