@@ -6,7 +6,7 @@
     android:clipChildren="false"
     android:clipToPadding="false"
     android:orientation="vertical"
-    android:paddingTop="50dp"
+    android:paddingTop="100dp"
     android:paddingBottom="50dp"
     android:gravity="center">
     <androidx.appcompat.widget.AppCompatImageView
@@ -22,7 +22,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/main_container"
         android:layout_width="250dp"
-        android:layout_height="380dp"
+        android:layout_height="350dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="30dp"
         app:layout_constraintEnd_toEndOf="parent"
