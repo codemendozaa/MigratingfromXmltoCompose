@@ -43,11 +43,10 @@ class HomeFragment : Fragment() {
         viewModel.state.observe(viewLifecycleOwner) { state ->
             when (state) {
                 is DataReady -> {
-//                    binding.progressCircular.visibility = GONE
                     itemsToSaleAdapter.setData(state.list)
                 }
                 Loading -> {
-//                    binding.progressCircular.visibility = VISIBLE
+                    // Not implemented
                 }
             }
         }
