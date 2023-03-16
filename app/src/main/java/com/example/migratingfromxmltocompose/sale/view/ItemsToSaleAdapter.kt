@@ -1,9 +1,11 @@
-package com.example.migratingfromxmltocompose
+package com.example.migratingfromxmltocompose.sale.view
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
+import com.example.migratingfromxmltocompose.R
+import com.example.migratingfromxmltocompose.sale.model.ForSaleItem
 
 class ItemsToSaleAdapter : ListAdapter<ForSaleItem, ItemToSaleViewHolder>(diffCallback) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemToSaleViewHolder {

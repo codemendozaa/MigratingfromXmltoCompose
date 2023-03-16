@@ -1,4 +1,4 @@
-package com.example.migratingfromxmltocompose
+package com.example.migratingfromxmltocompose.sale.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

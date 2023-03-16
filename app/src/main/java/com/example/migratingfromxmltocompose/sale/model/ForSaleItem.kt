@@ -1,4 +1,4 @@
-package com.example.migratingfromxmltocompose
+package com.example.migratingfromxmltocompose.sale.model
 
 data class ForSaleItem(
     val label: String,

@@ -1,8 +1,9 @@
-package com.example.migratingfromxmltocompose
+package com.example.migratingfromxmltocompose.sale.view
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.example.migratingfromxmltocompose.databinding.ViewholderDronItemBinding
+import com.example.migratingfromxmltocompose.sale.model.ForSaleItem
 
 class ItemToSaleViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
